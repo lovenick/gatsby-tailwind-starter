@@ -25,10 +25,8 @@ const Layout = ({ children }) => (
         >
           <html lang="en" />
         </Helmet>
-        <div
-          className="bg-grey-lightest h-full"
-        >
-          {children}
+        <div className="font-sans bg-grey-lightest h-full">
+          <div className="container mx-auto h-full">{children}</div>
         </div>
       </>
     )}
